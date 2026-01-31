@@ -1,4 +1,6 @@
 <?php
+namespace PHPQueryParams;
+
 function build_url(array $parts): string {
     $url = '';
 

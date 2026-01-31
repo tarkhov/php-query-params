@@ -1,4 +1,6 @@
 <?php
+namespace PHPQueryParams;
+
 function set_query_params(array $values, string $url): string {
     $parts = parse_url($url);
     $params = [];
