@@ -1,7 +1,7 @@
 {
     "name": "tarkhov/php-query-params",
     "description": "Set url querystring params using PHP.",
-    "keywords": ["guzzle", "symfony", "serializer", "xml", "json", "curl", "request", "response"],
+    "keywords": ["query", "params", "url", "querystring"],
     "type": "library",
     "homepage": "https://github.com/tarkhov/php-query-params",
     "license": "MIT",
@@ -22,6 +22,6 @@
         }
     },
     "require": {
-        "php": ">=7.2.5"
+        "php": "^7.4 || ^8.0"
     }
 }
